@@ -19,6 +19,10 @@ library
   exposed-modules:     Graphics.NVD3
   other-modules:       Graphics.NVD3.Types, Graphics.NVD3.Charts, Graphics.NVD3.Writer
   other-extensions:    DeriveGeneric, OverloadedStrings, RecordWildCards, ViewPatterns
-  build-depends:       base >=4.6 && <4.7, aeson >=0.7 && <0.8, text >=1.1 && <1.2, vector >=0.10 && <0.11, unordered-containers >=0.2 && <0.3
+  build-depends:       base >=4.9  && <4.10
+                     , aeson >= 1.2.0 && <= 1.3
+                     , text >=1.2 && < 1.3
+                     , vector >=0.12 && < 0.13
+                     , unordered-containers >=0.2 && <0.3
   hs-source-dirs:      src
   default-language:    Haskell2010
