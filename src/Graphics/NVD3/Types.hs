@@ -5,7 +5,7 @@
 
 module Graphics.NVD3.Types where
 
-import           Data.Aeson
+import           Data.Aeson 		    hiding (Series)
 import qualified Data.HashMap.Strict        as H
 import qualified Data.Text                  as T
 import           Data.Text.Lazy             (Text)

@@ -2,7 +2,7 @@
 
 module Graphics.NVD3.Writer where
 
-import           Data.Aeson
+import           Data.Aeson		 hiding (Series)
 import qualified Data.HashMap.Strict     as H
 import qualified Data.List               as L
 import           Data.Monoid
